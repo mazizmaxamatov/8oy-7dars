@@ -8,6 +8,7 @@ const HeaderBottom = () => {
 
   const {data:categories, isLoading, isError} = getCategories();
   
+  console.log(categories)
 
   return (
     <div className='flex items-center justify-between containers'>

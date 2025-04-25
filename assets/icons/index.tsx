@@ -23,20 +23,23 @@ export const LocationIcon = () => {
 
     )
 }
-export const ArrowDownIcon = () => {
+export const ArrowDownIcon = ({ className = "" }) => {
     return (
-        <svg width="10"
+        <svg
+            width="10"
             height="6"
             viewBox="0 0 10 6"
             fill="none"
-            xmlns="http://www.w3.org/2000/svg">
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+        >
             <path
                 d="M8.96484 1.26147L5.00112 4.71674L1.00004 1.30481"
                 stroke="currentColor"
                 strokeLinecap="round"
-                strokeLinejoin="round" />
+                strokeLinejoin="round"
+            />
         </svg>
-
     )
 }
 export const SearchIcon = () => {
